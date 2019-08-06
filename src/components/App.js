@@ -7,19 +7,19 @@ import NavBar from '../components/Partials/NavBarComponent';
 
 
 
+
 function App() {
   return (
     <BrowserRouter>
-    <React.Fragment>
-    <Layout>
-    <Switch>  
-    <Route exact path = "/home" component={NavBar} />
+      <React.Fragment>
+         <Layout>
+            <Switch>  
+              <Route exact path = "/home" component={NavBar} />
 
     
-    </Switch>
-    </Layout>   
-   </React.Fragment>
-    
+            </Switch>
+        </Layout>   
+      </React.Fragment> 
    </BrowserRouter>
   );
 }
