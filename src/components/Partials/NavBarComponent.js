@@ -16,16 +16,16 @@ class NavBar extends Component {
                         <div class="collapse navbar-collapse " id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">Acerca de Nosotros <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="a">Acerca de Nosotros <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Cursos</a>
+                                    <a class="nav-link" href="a">Cursos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Proyectos</a>
+                                    <a class="nav-link" href="a">Proyectos</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Actualizaciones</a>
+                                    <a class="nav-link" href="a">Actualizaciones</a>
                                 </li>
                             </ul>
                         </div>
