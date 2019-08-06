@@ -1,0 +1,14 @@
+.Proyects_img__tienda{
+    width: 400px;
+    height: 300px;
+    position:relative;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Proyects_div__bg{
+    background-color:#f1f1f1;
+}
