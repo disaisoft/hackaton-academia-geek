@@ -9,9 +9,9 @@ class Updates extends React.Component{
     render(){
         return(
             <div>
-               <div className="container cta-100 ml-5">
+               <div className="container-fluid cta-100 justify-content-center">
                 <div className="container">
-          <         div className="row blog">
+                <div className="row blog">
                         <div className="col-md-12">
              
                 

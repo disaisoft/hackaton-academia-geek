@@ -14,7 +14,8 @@ const Layout = (props) => {
 
              <HomeComponent/>
              <br/>
-             <About/>
+             <About/><br/>
+             <h1 className="d-flex justify-content-center mb-5">Actualizaciones</h1>
              <Updates/>
 
             <Footer/>
