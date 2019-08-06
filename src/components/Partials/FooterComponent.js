@@ -12,7 +12,7 @@ class Footer extends React.Component {
                   <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"/></a>
                     <p>Queremos innovacion, somos una organizacion diferente Donte te ayudamos a acercarte al mundo laboral y que tengas los conocimientos y habilidades para trabajar en una empresa</p>
                     
-                    <p class="rights"><span>©  </span><span class="copyright-year">2019</span><span> </span><span>Academia Geek</span><span>. </span><span>All Rights Reserved.</span></p>
+                    <p class="rights"><span>©  </span><span class="copyright-year">2019</span><span> </span><span>Academia Geek</span><span>. </span><span>All Rights Reserved.</span></p>
                   </div>
                 </div>
                 <div class="col-md-4">
@@ -42,7 +42,7 @@ class Footer extends React.Component {
               </div>
             </div>
             <div class="row no-gutters social-container">
-              <div className="fab fa-facebook-square" class="col"><a class="social-inner" href="a"><span>Facebook</span></a></div>
+              <div class="col"><a class="social-inner" href="a"><span>Facebook</span></a></div>
               <div class="col"><a class="social-inner" href="a"><span>instagram</span></a></div>
               <div class="col"><a class="social-inner" href="a"><span>twitter</span></a></div>
               <div class="col"><a class="social-inner" href="a"><span>google</span></a></div>

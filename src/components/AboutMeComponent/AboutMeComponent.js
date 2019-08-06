@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import './styles/AboutMeStyles.css';
-import Image1 from '../../images/Hello.jpg';
+import React, { Component } from 'react'
+import './styles/AboutMeStyles.css'
+import Image1 from '../../images/Hello.jpg'
 import Image2 from '../../images/image2.jpg';
 import Image3 from '../../images/image3.jpg';
 
@@ -9,6 +9,7 @@ export default class About extends Component {
         return (
             <div className="container">
                 <h4 className="center">¡Academia Geek te de la bienvenida!</h4>
+                <br/>
                 <div className="row">
                     <div className="col-sm center">
                     <div className="card div">

@@ -1,20 +1,22 @@
 import React from 'react';
 
 import NavBar from '../Partials/NavBarComponent';
-import About from '../AboutMeComponent/AboutMeComponent';
-import Updates from '../UpdatesComponent/UpdatesComponent';
 import Footer from '../Partials/FooterComponent';
-import Movie from '../MovieComponent/MovieComponent';
-
+import Updates from '../UpdatesComponent/UpdatesComponent';
+import HomeComponent from '../Home/HomeComponent';
+import About from '../AboutMeComponent/AboutMeComponent';
 const Layout = (props) => {
     return(
 
         <div> 
              <NavBar/>
-             
-             
+             {props.children}
+
+             <HomeComponent/>
+             <br/>
              <About/>
              <Updates/>
+
             <Footer/>
         </div>
     )
