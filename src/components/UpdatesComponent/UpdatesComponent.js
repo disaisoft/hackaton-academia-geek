@@ -9,7 +9,7 @@ class Updates extends React.Component{
     render(){
         return(
             <div>
-               <div className="container cta-100 ">
+               <div className="container cta-100 ml-5">
                 <div className="container">
           <         div className="row blog">
                         <div className="col-md-12">
@@ -74,7 +74,7 @@ class Updates extends React.Component{
                           </div>
                         </div>
                       </div>
-                      <div className="col-md-4" >
+                      <div className="col" >
                         <div className="item-box-blog">
                           <div className="item-box-blog-image">
                             
@@ -99,8 +99,10 @@ class Updates extends React.Component{
 
 How to open the command line interface on your computer depends on the operating system. For Windows users, press the start button and look for "Command Prompt", or simply write "cmd" in the search field.</p>
                             </div>
-                            <div className="mt"> <a href="a" tabindex="0" className="btn bg-blue-ui white read">read more</a> </div>
-                            
+                            <div className="mt"> <a href="a" tabindex="0" className="btn bg-blue-ui white read">read more</a>
+
+                             </div>
+                            <br/>
                           </div>
                         </div>
                       </div>
