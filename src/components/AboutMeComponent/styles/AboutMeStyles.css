@@ -1,0 +1,23 @@
+p{
+    text-align: center;
+    font-family: terminal, monaco, monospace;
+    font-size: 18pt;
+    color: black;
+}
+
+img{ 
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+
+.div{
+    width: 300px;
+}
+
+.center{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
