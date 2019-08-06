@@ -5,11 +5,12 @@ class Footer extends React.Component {
     render(){
 
         return(
-            <div className=" ml-5 row my-5 container">
+            <div className=" ml-3 row my-5  container-fluid">
             <ul className='col-3 '>
                 <h6 className='mb-3'>Acerca de Nosotros</h6>
+                <li><Link to='/'>Quienes somos</Link></li>
                 <li><Link to='/'>Que hacemos</Link></li>
-                <li><Link to='/'></Link></li>
+                <li><Link to='/'>Que aprenderás</Link></li>
                 
             </ul>
             <ul className="col-3 color"  >
