@@ -9,9 +9,7 @@ class Updates extends React.Component{
     render(){
         return(
             <div>
-
-            
-            <div className="container cta-100 ">
+               <div className="container cta-100 ">
                 <div className="container">
           <         div className="row blog">
                         <div className="col-md-12">
@@ -41,7 +39,7 @@ class Updates extends React.Component{
                             </div>
                            
                             <div className="item-box-blog-text">
-                              <p>Since Bootstrap is developed to be mobile first, we use a handful of media queries to create sensible breakpoints for our layouts and interfaces. These breakpoints are mostly based on minimum viewport widths and allow us to scale up elements as the viewport changes.</p>
+                              <p>Since Bootstrap is developed to be mobile first, we use.. a handful of media queries to create sensible breakpoints for our layouts and interfaces. These breakpoints are mostly based on minimum viewport widths and allow us to scale up elements as the viewport changes.</p>
                             </div>
                             <div className="mt btn bg-blue-ui white read">read more</div>
                            

@@ -1,50 +1,53 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
+import './styles/PartialStyle.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 class Footer extends React.Component {
     render(){
 
         return(
-            <div className=" ml-3 row my-5  container-fluid">
-            <ul className='col-3 '>
-                <h6 className='mb-3'>Acerca de Nosotros</h6>
-                <li><Link to='/'>Quienes somos</Link></li>
-                <li><Link to='/'>Que hacemos</Link></li>
-                <li><Link to='/'>Que aprenderás</Link></li>
-                
-            </ul>
-            <ul className="col-3 color"  >
-                <h6 className='mb-3'>Cursos</h6>
-                <li><Link to='/'>Desarrollador Frontend</Link></li>
-                <li><Link to='/'>Desarrollador Backend</Link></li>
-                <li><Link to='/'>Desarrollador de Video Juegos</Link></li>
-               
-            </ul>
-            <ul className='col-3'>
-                <h6 className='mb-3'>Proyectos</h6>
-                <li><Link to='/'>Conferencia Geek</Link></li>
-                <li><Link to='/'>Portafolio</Link></li>
-                <li><Link to='/'>Tienda En linea</Link></li>
-                
-                
-            </ul>
-            <ul className='col-3'>
-                <h6 className='mb-3'>Actualizaciones</h6>
-                <li><Link to='/'>Bootstrap</Link></li>
-                <li><Link to='/'>Javascript</Link></li>
-                <li><Link to='/'>NodeJS</Link></li>
-            </ul>
-
-            <div className="text-white bg-dark w-100 row " role="alert">
-                <h6 className="center col-6 ">@Copyright Todos los derechos reservados </h6>
-                <div className="d-flex col-6 justify-content-end">
-                    <i className="fab fa-2x fa-cc-paypal ml-2"></i>
-                    <i className="fab fa-2x fa-cc-mastercard ml-2"></i>
-                    <i className="fab fa-2x fa-cc-mastercard ml-2"></i>
+            <footer class="section footer-classic context-dark bg-dark">
+            <div class="container">
+              <div class="row row-30">
+                <div class="col-md-4 col-xl-5">
+                  <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"/></a>
+                    <p>Queremos innovacion, somos una organizacion diferente Donte te ayudamos a acercarte al mundo laboral y que tengas los conocimientos y habilidades para trabajar en una empresa</p>
+                    
+                    <p class="rights"><span>©  </span><span class="copyright-year">2019</span><span> </span><span>Academia Geek</span><span>. </span><span>All Rights Reserved.</span></p>
+                  </div>
                 </div>
+                <div class="col-md-4">
+                  <h5>Donde encontrarnos:</h5>
+                  <dl class="contact-list">
+                    <dt>Direccion:</dt>
+                    <dd>Carrera 48 No. 7 – 151 | El Poblado </dd>
+                  </dl>
+                  <dl class="contact-list">
+                    <dt>email:</dt>
+                    <dd><a href="mailto:#">academiaGeek@gmail.com</a></dd>
+                  </dl>
+                  <dl class="contact-list">
+                    <dt>Telefonos:</dt>
+                    <dd><a href="tel:#">+91 7568543012</a> <span>--</span> <a href="tel:#">+91 9571195353</a>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="col-md-4 col-xl-3">
+                  <ul class="nav-list">
+                    <li><a href="a">Acerca de</a></li>
+                    <li><a href="a">Cursos</a></li>
+                    <li><a href="a">Proyectos</a></li>
+                    <li><a href="a">Actualizaciones</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
-
-        </div>
+            <div class="row no-gutters social-container">
+              <div class="col"><a class="social-inner" href="a"><span>Facebook</span></a></div>
+              <div class="col"><a class="social-inner" href="a"><span>instagram</span></a></div>
+              <div class="col"><a class="social-inner" href="a"><span>twitter</span></a></div>
+              <div class="col"><a class="social-inner" href="a"><span>google</span></a></div>
+            </div>
+          </footer>
         );
     
     }
