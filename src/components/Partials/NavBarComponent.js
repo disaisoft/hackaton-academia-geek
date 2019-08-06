@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import logo from '../../images/logo-ag.png';
-import Style from './styles/PartialStyle.css';
+
 
 class NavBar extends Component {
 
     render() {
         return (
             <header>
-                <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+                <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <a className="Navbar__brand" href="/">
-                        <img className='iconLogo' src={logo} width='120' alt='Images logo' />
+                        <img className='iconLogo' src={logo} width='120' height='2px' alt='Images logo' />
                     </a>
 
                         <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,10 +31,11 @@ class NavBar extends Component {
                                 </li>
                             </ul>
                         </div>
+                        
                 
                 </nav>
             </header>
-        );
+                    );
     }
 }
 
